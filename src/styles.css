@@ -74,6 +74,7 @@ header a{
   .grid {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 64px;
   }
 footer {
     color: white;
@@ -95,8 +96,7 @@ footer p{
     font-size: 16px;
     line-height: 1.5;
     opacity: 0.7;
-    margin-right: 20px;
-}
+    }
 
 footer ul{
     padding: 0;
