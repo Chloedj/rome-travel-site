@@ -286,3 +286,87 @@ footer a {
             }
 
         }
+
+
+                @media (max-width: 468px) {
+                    header {
+                        padding: 40px 20px;
+                       
+                    }
+        
+                    header h1,
+                    header h2,
+                    header h3,
+                    .button,
+                    main h2,
+                    main h3,
+                    main h4,
+                    main h5,
+                    main p,
+                    footer h3,
+                    footer p {
+                        padding-left: 10px;
+                        padding-right: 10px;
+                                            }
+        
+                    header h1 {
+                        font-size: 32px;
+                        
+                    }
+        
+                    header h2 {
+                        font-size: 18px;
+                        
+                    }
+        
+                    header h3,
+                    main h2,
+                    main h4,
+                    footer h3 {
+                        font-size: 16px;
+                       
+                    }
+        
+                    main h3,
+                    main h5 {
+                        font-size: 20px;
+                        
+                    }
+        
+                    main p,
+                    footer p {
+                        font-size: 14px;
+                        
+                    }
+        
+                    .grid,
+                    .grid-footer,
+                    .grid-2-column,
+                    .grid-3-columns {
+                        grid-template-columns: 1fr;
+                        
+                    }
+        
+                    .card-header.grid.grid-2-column,
+                    .card-header.embed,
+                    .card-header.img-responsive {
+                        height: auto;
+                        
+                    }
+        
+                    .embed {
+                        aspect-ratio: 16/9;
+                        
+                    }
+        
+                    .card,
+                    .button {
+                        margin: 20px 0;
+                        
+                    }
+        
+                    section {
+                        padding: 20px;
+                        
+                    }
+                }
